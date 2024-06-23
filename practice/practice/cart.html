@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 5px;
+        padding: 5px;
+    }
+    button{
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 5px rgb(51, 195, 56);
+        cursor: pointer;
+    }
+    .box{
+        border: 3px solid;
+        height: 30px;
+        width: 75px;
+        text-align: center;
+    }
+    .noti{
+        border: 2px solid;
+        height: 2%;
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        background-color: black;
+        color: beige;
+    }
+</style>
+<body>
+    <div>
+        <button class="ac">ADD TO CART</button><br>
+        <button class="aw">ADD WISHLIST</button>
+        <div class="box"></div>
+    </div>
+    <div class="noti">
+    </div>
+    <script>
+        let item = 0;
+        let cart = document.querySelector(".ac");
+        let whis = document.querySelector(".aw");
+        let box = document.querySelector(".box");
+        let noti = document.querySelector(".noti");
+
+        cart.addEventListener("click", () => {
+            box.innerHTML = ++item;
+            noti.innerHTML = "ITEM HAS BEEN ADDED TO CART";
+        });
+
+        whis.addEventListener("click", () => {
+            if (item > 0) {
+                box.innerHTML = --item;
+                noti.innerHTML = "ITEM HAS BEEN MOVED TO THE WISHLIST";
+            } else {
+                alert("THE CART IS ALREADY EMPTY");
+                noti.innerHTML = "";
+            }
+        });
+    </script>
+</body>
+</html>

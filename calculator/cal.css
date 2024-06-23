@@ -1,0 +1,29 @@
+.cal{
+    border: 2px solid;
+height: 600px;
+width: 95%;
+}
+.val{
+    border: 2px solid;
+    height: 62px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 40px;
+    overflow: auto;
+}
+.buttons{
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 5px;
+    gap: 55px;
+}
+button{
+    padding: 5px;
+    margin-right: 70px;
+    font-size: 27px;
+    cursor: pointer;
+}

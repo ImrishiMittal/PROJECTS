@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3e4f72;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background: rgba(252, 252, 252, 0.499);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+.log label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+#user, #pass, #fp, #submit {
+    margin-bottom: 15px;
+}
+
+#user input, #pass input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#fp label {
+    font-size: 0.9em;
+    color: #666;
+}
+
+#fp input {
+    margin-right: 10px;
+}
+
+#submit button {
+    background-color: #1fb924;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#submit button:hover {
+    background-color: #45a049;
+}
+
+#lin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    font-style: normal;
+    color: #ef0b0b;
+}
+
+body::before {
+    content: " ";
+    z-index: -1;
+    background-image: url("Designer.jpeg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.29;
+    /* filter: blur(2px); */
+}
+a{
+    color: #ef0b0b;
+}
