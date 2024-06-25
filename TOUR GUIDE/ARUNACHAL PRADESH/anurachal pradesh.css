@@ -55,12 +55,12 @@ font-size: 18px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 30px;
-    cursor: pointer;
 }
 
 #types figure {
     text-align: center;
     margin: 0;
+    cursor: pointer;
 }
 
 #types img {
