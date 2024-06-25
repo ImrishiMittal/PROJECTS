@@ -124,10 +124,12 @@ button {
 
 .img:hover img {
     opacity: 1;
+    border-radius: 30px;
 }
 
 .img:hover {
     transform: scale(1.2);
+    border-radius: 30px;
 }
 
 .union-territories-section {

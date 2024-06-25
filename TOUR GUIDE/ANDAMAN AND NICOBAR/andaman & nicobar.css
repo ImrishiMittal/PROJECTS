@@ -1,0 +1,115 @@
+* {
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-m/1280/14/10/2d/b8/andaman-and-nicobar-islands.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.button {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.size {
+    font-size: 18px;
+}
+
+.headlines {
+    background-color: rgba(1, 18, 1, 0.83);
+    display: inline-block;
+    border-radius: 15px 100px;
+    border: 2px solid rgb(212, 216, 194);
+    color: aliceblue;
+    padding: 5px 15px;
+}
+
+#types {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    cursor: pointer;
+}
+
+#types figure {
+    text-align: center;
+    margin: 0;
+}
+
+#types img {
+    max-width: 100%;
+    opacity: 0.7;
+    border-radius: 150px;
+    border: 3px solid;
+    display: block;
+    margin: 0 auto;
+    transition: all 1s ease-out;
+}
+
+#types img:hover {
+    opacity: 1;
+    border-radius: 10px 100px;
+}
+
+#types figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+#last {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#last img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 3px double;
+    border-radius: 150px 1px;
+    transition: border-radius 0.3s;
+}
+
+#last img:hover {
+    border-radius: 1px 150px;
+}
+
+@media only screen and (min-width: 850px) {
+    img {
+        width: 40vw;
+        height: auto;
+    }
+}
