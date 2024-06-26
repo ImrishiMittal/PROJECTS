@@ -29,7 +29,9 @@ width: 75vw;
             height: 45vh;
         }
     }
-
+    .para>div{
+        background-color: rgba(248, 248, 248, 0.455);
+    }
 .button{
 /* margin-top: 15px; */
     position:relative;

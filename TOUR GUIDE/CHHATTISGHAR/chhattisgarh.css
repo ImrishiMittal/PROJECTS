@@ -26,6 +26,9 @@ left: 50%;
 transform: translateX(-50%);
 font-size:25px;
 }
+.para>div{
+    background-color: rgba(248, 248, 248, 0.325);
+}
 img{
 width: 75vw;
     height:auto;

@@ -39,8 +39,11 @@ let index = document.getElementById("home");
     document.getElementById("bihar").addEventListener("click",()=>{
         window.location.href = "/TOUR GUIDE/BIHAR/Bihar.html";
     })
-    document.getElementById("chattisgarh").addEventListener("click",()=>{
+    document.getElementById("chandigarh").addEventListener("click",()=>{
         window.location.href = "/TOUR GUIDE/CHANDIGARH/Chandigarh.html";
+    })
+    document.getElementById("chattisgarh").addEventListener("click",()=>{
+        window.location.href = "/TOUR GUIDE/CHHATTISGHAR/Chhattisgarh.html";
     })
     document.getElementById("goa").addEventListener("click",()=>{
         window.location.href = "/TOUR GUIDE/GOA/Goa.html";

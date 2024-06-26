@@ -41,10 +41,9 @@ font-size:25px;
 .size{
 font-size: 18px;
 }
-
-
-
-
+.para>div{
+    background-color: rgba(248, 248, 248, 0.325);
+}
 .headlines {
     background-color: rgba(1, 18, 1, 0.83);
     display: inline-block;

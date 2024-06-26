@@ -18,6 +18,9 @@ body::before {
     opacity: 0.39;
     z-index: -1;
   }  
+  .para>div{
+    background-color: rgba(248, 248, 248, 0.325);
+}
  .button{
     position:relative;
     bottom: 0;
