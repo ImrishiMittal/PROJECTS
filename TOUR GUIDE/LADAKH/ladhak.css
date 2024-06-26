@@ -6,18 +6,18 @@ h1{
     text-align: center;
     text-decoration-line: underline;
 }
-body::before{
-    content: "";
+body::before {
+    content: " ";
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    position: fixed;
+    position:fixed;
     background-image: url("https://static.toiimg.com/photo/msid-91812757,width-96,height-65.cms");
     background-size:cover;
     opacity: 0.39;
     z-index: -1;
-}
+  }  
  .button{
     position:relative;
     bottom: 0;
