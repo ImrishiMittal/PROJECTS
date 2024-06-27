@@ -14,9 +14,10 @@ let index = document.getElementById("home");
     highlight.addEventListener("click",()=>{
         window.location.href="/TOUR GUIDE/HIGHLIGHT/highlight.html";
     })
-
-
-
+    let feedback = document.getElementById("feedback");
+    feedback.addEventListener("click",()=>{
+        window.location.href="/TOUR GUIDE/FEEDBACK/feedback.html"
+    })
 
 
 

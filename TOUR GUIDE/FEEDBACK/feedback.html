@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FEEDBACK</h1>
+        <form action="">
+            <div>
+                <label for="name"><b>NAME</b></label>
+                <input type="text" placeholder="ENTER YOUR NAME" id="name" required>
+            </div>
+            <div>
+                <label for="mail"><b>EMAIL</b></label>
+                <input type="email" placeholder="EMAIL ADDRESS" id="mail" required>
+            </div>
+            <div>
+                <label for="phone"><b>PHONE NO.</b></label>
+                <input type="tel" placeholder="ENTER PHONE NO." id="phone" required>
+            </div>
+            <div>
+                <label for="age"><b>AGE</b></label>
+                <input type="number" placeholder="ENTER YOUR AGE" id="age" required>
+            </div>
+            <div>
+                <label for="gender"><b>GENDER</b></label>
+                <label for="male">MALE</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="female">FEMALE</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </div>
+            <div>
+                <label for=""><b>RATE YOUR EXPERINCE</b></label>
+                <div class="rate">
+                    <input type="radio" id="star5" name="rate" value="5" />
+                    <label for="star5" title="text">5 stars</label>
+                    <input type="radio" id="star4" name="rate" value="4" />
+                    <label for="star4" title="text">4 stars</label>
+                    <input type="radio" id="star3" name="rate" value="3" />
+                    <label for="star3" title="text">3 stars</label>
+                    <input type="radio" id="star2" name="rate" value="2" />
+                    <label for="star2" title="text">2 stars</label>
+                    <input type="radio" id="star1" name="rate" value="1" />
+                    <label for="star1" title="text">1 star</label>
+                  </div><br><br><br>
+        
+            <div>
+                <label for="suggestion"><b>SUGGESTION</b></label><br>
+                <textarea id="suggestion" cols="30" rows="5" placeholder="ENTER YOUR SUGGESTION"></textarea>
+            </div>
+            <div>
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
