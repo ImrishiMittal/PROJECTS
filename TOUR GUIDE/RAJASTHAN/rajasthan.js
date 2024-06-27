@@ -1,27 +1,27 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/HISTORY/history.html")
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/CULTURE/culture.html")
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/TRADITON/tradition.html")
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/TOURISM/tourism.html")
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/FOOD/food.html")
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/DRESS/dress.html")
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/LANGUAGES/languages.html")
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("")
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/TRAVEL/travel.html")
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("")
-})
+    window.open("/TOUR GUIDE/RAJASTHAN/Things/GEOGRAPHICAL/geographical.html")
+});
