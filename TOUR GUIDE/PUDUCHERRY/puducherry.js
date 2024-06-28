@@ -1,27 +1,27 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/HISTORY/history.html")
+    window.open("/PUDUCHERRY/Things/HISTORY/history.html")
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/CULTURE/culture.html")
+    window.open("/PUDUCHERRY/Things/CULTURE/culture.html")
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/TRADITON/tradition.html")
+    window.open("/PUDUCHERRY/Things/TRADITON/tradition.html")
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/TOURISM/tourism.html")
+    window.open("/PUDUCHERRY/Things/TOURISM/tourism.html")
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/FOOD/food.html")
+    window.open("/PUDUCHERRY/Things/FOOD/food.html")
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/DRESS/dress.html")
+    window.open("/PUDUCHERRY/Things/DRESS/dress.html")
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/LANGUAGES/languages.html")
+    window.open("/PUDUCHERRY/Things/LANGUAGES/languages.html")
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/TRAVEL/travel.html")
+    window.open("/PUDUCHERRY/Things/TRAVEL/travel.html")
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/PUDUCHERRY/Things/GEOGRAPHICAL/geographical.html")
+    window.open("/PUDUCHERRY/Things/GEOGRAPHICAL/geographical.html")
 });

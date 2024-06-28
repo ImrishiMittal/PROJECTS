@@ -1,27 +1,27 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/HISTORY/history.html")
+    window.open("/ODISHA/Things/HISTORY/history.html")
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/CULTURE/culture.html")
+    window.open("/ODISHA/Things/CULTURE/culture.html")
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/TRADITON/tradition.html")
+    window.open("/ODISHA/Things/TRADITON/tradition.html")
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/TOURISM/tourism.html")
+    window.open("/ODISHA/Things/TOURISM/tourism.html")
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/FOOD/food.html")
+    window.open("/ODISHA/Things/FOOD/food.html")
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/DRESS/dress.html")
+    window.open("/ODISHA/Things/DRESS/dress.html")
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/LANGUAGES/languages.html")
+    window.open("/ODISHA/Things/LANGUAGES/languages.html")
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/TRAVEL/travel.html")
+    window.open("/ODISHA/Things/TRAVEL/travel.html")
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/ODISHA/Things/GEOGRAPHICAL/geographical.html")
+    window.open("/ODISHA/Things/GEOGRAPHICAL/geographical.html")
 });

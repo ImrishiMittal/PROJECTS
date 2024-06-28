@@ -1,27 +1,27 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/HISTORY/history.html")
+    window.open("/TELANGANA/Things/HISTORY/history.html")
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/CULTURE/culture.html")
+    window.open("/TELANGANA/Things/CULTURE/culture.html")
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/TRADITON/tradition.html")
+    window.open("/TELANGANA/Things/TRADITON/tradition.html")
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/TOURISM/tourism.html")
+    window.open("/TELANGANA/Things/TOURISM/tourism.html")
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/FOOD/food.html")
+    window.open("/TELANGANA/Things/FOOD/food.html")
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/DRESS/dress.html")
+    window.open("/TELANGANA/Things/DRESS/dress.html")
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/LANGUAGES/languages.html")
+    window.open("/TELANGANA/Things/LANGUAGES/languages.html")
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/TRAVEL/travel.html")
+    window.open("/TELANGANA/Things/TRAVEL/travel.html")
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/TOUR GUIDE/TELANGANA/Things/GEOGRAPHICAL/geographical.html")
+    window.open("/TELANGANA/Things/GEOGRAPHICAL/geographical.html")
 });
