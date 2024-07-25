@@ -209,7 +209,7 @@ img{
             height: auto;
             border: 3px double;
             border-radius: 150px 1px;
-            transition: border-radius 0.3s;
+            transition: ease 2s;
         }
         
         #last img:hover {
