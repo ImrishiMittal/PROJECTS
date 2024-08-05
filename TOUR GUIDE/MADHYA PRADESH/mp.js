@@ -25,3 +25,31 @@ document.getElementById("travel").addEventListener("click",()=>{
 document.getElementById("location").addEventListener("click",()=>{
     window.open("/MADHYA PRADESH/Things/GEOGRAPHICAL/geographical.html")
 });
+
+
+
+const sliders = document.querySelectorAll(".slider");
+
+sliders.forEach(slider => {
+    const images = slider.querySelectorAll("img");
+    const prevButton = slider.querySelector(".prev");
+    const nextButton = slider.querySelector(".next");
+    let currentIndex = 0;
+
+    function showNextImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    function showPrevImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    prevButton.addEventListener("click", showPrevImage);
+    nextButton.addEventListener("click", showNextImage);
+
+    // setInterval(showNextImage, 3000);
+});
