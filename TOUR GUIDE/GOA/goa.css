@@ -115,6 +115,18 @@ img{
             height: 45vh;
         }
     }
+    @media only screen and (max-width: 1000px) {
+        .images {
+            display: flex;
+            flex-direction: column;
+        }
+        .slider{
+            margin-left: -35px;
+            width: 85vw;
+            height: 45vh;
+        }
+    }
+    
 .headlines {
     background-color: rgba(1, 18, 1, 0.83);
     display: inline-block;

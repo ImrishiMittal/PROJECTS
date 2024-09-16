@@ -58,7 +58,6 @@ font-size: 18px;
 
 
 
-
 .images{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -146,6 +145,17 @@ button.prev:hover, button.next:hover {
 
 
 
+@media only screen and (max-width: 1000px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+    .slider{
+        margin-left: -35px;
+        width: 85vw;
+        height: 45vh;
+    }
+}
 
 
 
