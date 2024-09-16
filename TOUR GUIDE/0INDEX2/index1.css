@@ -60,31 +60,7 @@ img {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 750px) {
-    img {
-        height: 90%;
-        width: 50%;
-    }
-}
 
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 25px;
-    margin: 12px;
-    background: black;
-    border: 3px solid yellow;
-}
-
-button {
-    background: linear-gradient(to right, rgb(255, 0, 0), rgb(247, 247, 4));
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    cursor: pointer;
-}
-button:hover{
-    background: linear-gradient(to right,rgb(247, 247, 4), rgb(255, 0, 0));
-}
 
 .cards {
     display: grid;
@@ -137,4 +113,128 @@ button:hover{
 
 .union-territories-section {
     margin-top: 40px;
+}
+
+/* Default styles (mobile view) */
+nav {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 75%;
+    height: 100%;
+    background-color: #33333360;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20% 0;
+}
+
+nav li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav li:hover {
+    background-color: #646464b6;
+}
+
+nav li button {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+}
+nav li button i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 19px;   /* Adjust icon size */
+}
+/* Styles for the visible state of the sliding menu */
+nav.show-menu {
+    left: 0;
+}
+
+/* Hamburger menu icon styling */
+.fa-solid {
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.fa-solid:hover {
+    cursor: pointer;
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 750px) {
+    /* Show the navigation bar at the top */
+    nav {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.342);
+        left: 0;
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    nav ul {
+        display: flex;
+        gap: 25px;
+        margin: 0;
+        /* background: black; */
+        /* border: 3px solid yellow; */
+    }
+
+    nav li {
+        margin: 5px;
+    }
+
+    /* Style the buttons to align icons and text in one line */
+    nav li button {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border: none;
+        background: none;
+        color: white;
+        width: 100%;
+    }
+
+    /* Icon styling with appropriate spacing */
+    nav li button i {
+        margin-right: 8px; /* Space between icon and text */
+        font-size: 15px;   /* Adjust icon size */
+    }
+
+    /* Styling the list items */
+    li {
+        border-radius: 200px;
+        border: 3px solid rgb(255, 252, 252);
+        background: linear-gradient(to right, rgb(255, 0, 0), rgb(247, 247, 4));
+    }
+
+    /* Hover effect on list items */
+    li:hover {
+        background: linear-gradient(to right, rgb(247, 247, 4), rgb(255, 0, 0));
+    }
+
+    /* Hide the hamburger menu icon on larger screens */
+    #menu-icon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+    }
 }

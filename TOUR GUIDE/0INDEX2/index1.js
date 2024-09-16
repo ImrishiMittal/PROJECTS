@@ -142,3 +142,18 @@ let index = document.getElementById("home");
     document.getElementById("puducherry").addEventListener("click",()=>{
         window.location.href = "/PUDUCHERRY/Puducherry.html";
     })
+    const menuIcon = document.getElementById('menu-icon');
+    const nav = document.querySelector('nav');
+    
+    // Toggle menu on clicking the hamburger icon
+    menuIcon.addEventListener('click', function() {
+        nav.classList.toggle('show-menu');
+    });
+    
+    // Close the menu when clicking outside of it
+    document.addEventListener('click', function(event) {
+        if (!nav.contains(event.target) && !menuIcon.contains(event.target)) {
+            nav.classList.remove('show-menu');
+        }
+    });
+    
