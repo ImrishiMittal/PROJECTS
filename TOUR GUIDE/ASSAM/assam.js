@@ -1,29 +1,29 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/HISTORY/history.html")
+    window.location ="/ASSAM/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/CULTURE/culture.html")
+    window.location ="/ASSAM/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/TRADITON/tradition.html")
+    window.location ="/ASSAM/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/TOURISM/tourism.html")
+    window.location ="/ASSAM/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/FOOD/food.html")
+    window.location ="/ASSAM/Things/FOOD/food.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/DRESS/dress.html")
+    window.location ="/ASSAM/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/LANGUAGES/languages.html")
+    window.location ="/ASSAM/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/TRAVEL/travel.html")
+    window.location ="/ASSAM/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/ASSAM/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/ASSAM/Things/GEOGRAPHICAL/geographical.html"
 })
 
 
