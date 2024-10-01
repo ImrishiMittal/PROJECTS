@@ -1,4 +1,4 @@
 let login = document.querySelector(".login");
 login.addEventListener("click", () => {
-    window.location.href = "/TOUR GUIDE/LOGIN/login.html";
+    window.location.href = "/LOGIN/login.html";
 });
