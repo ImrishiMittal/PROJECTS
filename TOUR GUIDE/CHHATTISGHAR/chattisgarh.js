@@ -13,6 +13,9 @@ document.getElementById("tourism").addEventListener("click",()=>{
 document.getElementById("food").addEventListener("click",()=>{
     window.open("/CHHATTISGHAR/Things/FOOD/food.html")
 })
+document.getElementById("festival").addEventListener("click",()=>{
+    window.open("/CHANDIGARH/Things/FESTIVALS/festival.html")
+})
 document.getElementById("dress").addEventListener("click",()=>{
     window.open("/CHHATTISGHAR/Things/DRESS/dress.html")
 })

@@ -13,6 +13,9 @@ document.getElementById("tourism").addEventListener("click",()=>{
 document.getElementById("food").addEventListener("click",()=>{
     window.open("/PUNJAB/Things/FOOD/food.html")
 })
+document.getElementById("festival").addEventListener("click",()=>{
+    window.open("/PUNJAB/Things/FESTIVALS/festival.html")
+})
 document.getElementById("dress").addEventListener("click",()=>{
     window.open("/PUNJAB/Things/DRESS/dress.html")
 })

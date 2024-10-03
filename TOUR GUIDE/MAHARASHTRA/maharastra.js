@@ -13,6 +13,9 @@ document.getElementById("tourism").addEventListener("click",()=>{
 document.getElementById("food").addEventListener("click",()=>{
     window.open("/MAHARASHTRA/Things/FOOD/food.html")
 })
+document.getElementById("festival").addEventListener("click",()=>{
+    window.open("/MAHARASHTRA/Things/FESTIVALS/festival.html")
+})
 document.getElementById("dress").addEventListener("click",()=>{
     window.open("/MAHARASHTRA/Things/DRESS/dress.html")
 })

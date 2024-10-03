@@ -13,6 +13,9 @@ document.getElementById("tourism").addEventListener("click",()=>{
 document.getElementById("food").addEventListener("click",()=>{
     window.open("/DADAR AND NAGAR HAVELI AND DAMAN AND DIU/Things/FOOD/food.html")
 })
+document.getElementById("food").addEventListener("click",()=>{
+    window.open("/DADAR AND NAGAR HAVELI AND DAMAN AND DIU/Things/FESTIVALS/festival.html")
+})
 document.getElementById("dress").addEventListener("click",()=>{
     window.open("/DADAR AND NAGAR HAVELI AND DAMAN AND DIU/Things/DRESS/dress.html")
 })

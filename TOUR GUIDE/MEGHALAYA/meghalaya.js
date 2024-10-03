@@ -13,6 +13,9 @@ document.getElementById("tourism").addEventListener("click",()=>{
 document.getElementById("food").addEventListener("click",()=>{
     window.open("/MEGHALAYA/Things/FOOD/food.html")
 })
+document.getElementById("festival").addEventListener("click",()=>{
+    window.open("/MEGHALAYA/Things/FESTIVALS/festival.html")
+})
 document.getElementById("dress").addEventListener("click",()=>{
     window.open("/MEGHALAYA/Things/DRESS/dress.html")
 })

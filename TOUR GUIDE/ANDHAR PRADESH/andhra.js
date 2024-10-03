@@ -13,6 +13,9 @@ document.getElementById("tourism").addEventListener("click",()=>{
 document.getElementById("food").addEventListener("click",()=>{
    window.location="/ANDHAR PRADESH/Things/FOOD/food.html"
 })
+document.getElementById("festival").addEventListener("click",()=>{
+   window.location="/ANDHAR PRADESH/Things/FESTIVALS/festival.html"
+})
 document.getElementById("dress").addEventListener("click",()=>{
    window.location="/ANDHAR PRADESH/Things/DRESS/dress.html"
 })
