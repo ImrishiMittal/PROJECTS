@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Odibee+Sans&display=swap');
 *{
-    margin: 5px;
+    margin: 10px;
 }
+
 button {
     height: 40px; 
     width: 40px;
     border-radius: 50%;
-    background-color: #fafe07; 
+    background-color: #f68309a9; 
     border: none; 
     color: white;
     display: flex; 
@@ -17,51 +19,49 @@ button {
 }
 
 button:hover {
-    background-color: rgb(255, 234, 4); 
+    background-color: #f68409; 
     transform: translateY(-2px); 
     height: 45px; 
     width: 45px;
 }
+
 button:active {
     background-color: #004494; 
     transform: translateY(0); 
 }
 
 button i {
-    font-size: 20px;
-}
-h1 {
-    margin: 2px;
+    font-size: 20px;}
+h1{
     text-align: center;
-    font-family: "Prata", serif;
-    font-size: 60px;
     text-decoration:dashed;
     text-decoration-line: underline;
+    font-size: 60px;
+    font-family: "Noto Serif", serif;
 }
-
-body::before {
+body::before{
     content: "";
     top: 0;
     left: 0;
-    position: fixed;
+    background: url("/IMAGES/FESTIVAL bg.jpeg");
     height: 100%;
     width: 100%;
-    background: url("/IMAGES/geographical-background.jpeg");
+    position: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.4;
     z-index: -1;
 }
-
-div {
+.big > div{
     font-size: 18px;
     padding: 5px;
 }
-.head {
+
+.heading{
     font-size: 22px;
     text-decoration: dotted;
     text-decoration-line: underline;
 }
-
 .image-container {
     display: flex;
     justify-content: space-around;
@@ -70,20 +70,18 @@ div {
 
 .image-container img {
     width: 30%;
-    height: auto;
+    max-height: 50vh;
     margin: 10px;
     box-shadow: 10px 10px 10px;
     border-radius: 15px;
 }
 @media (max-width: 700px) {
-    h1{
-        margin: 2px;
-    }
     .image-container {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
+
     .image-container img {
         width: 80%; 
     }

@@ -1,29 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/HISTORY/history.html")
+    window.location ="/BIHAR/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/CULTURE/culture.html")
+    window.location ="/BIHAR/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/TRADITON/tradition.html")
+    window.location ="/BIHAR/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/TOURISM/tourism.html")
+    window.location ="/BIHAR/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/FOOD/food.html")
+    window.location ="/BIHAR/Things/FOOD/food.html"
+})
+document.getElementById("festival").addEventListener("click",()=>{
+    window.location ="/BIHAR/Things/FESTIVALS/fesival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/DRESS/dress.html")
+    window.location ="/BIHAR/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/LANGUAGES/languages.html")
+    window.location ="/BIHAR/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/TRAVEL/travel.html")
+    window.location ="/BIHAR/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/BIHAR/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/BIHAR/Things/GEOGRAPHICAL/geographical.html"
 })
 
 const sliders = document.querySelectorAll(".slider");
