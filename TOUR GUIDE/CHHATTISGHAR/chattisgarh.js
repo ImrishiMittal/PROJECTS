@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/HISTORY/history.html")
+    window.location ="/CHHATTISGHAR/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/CULTURE/culture.html")
+    window.location ="/CHHATTISGHAR/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/TRADITON/tradition.html")
+    window.location ="/CHHATTISGHAR/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/TOURISM/tourism.html")
+    window.location ="/CHHATTISGHAR/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/FOOD/food.html")
+    window.location ="/CHHATTISGHAR/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/FESTIVALS/festival.html")
+    window.location ="/CHHATTISGHAR/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/DRESS/dress.html")
+    window.location ="/CHHATTISGHAR/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/LANGUAGES/languages.html")
+    window.location ="/CHHATTISGHAR/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/TRAVEL/travel.html")
+    window.location ="/CHHATTISGHAR/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/CHHATTISGHAR/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/CHHATTISGHAR/Things/GEOGRAPHICAL/geographical.html"
 })
 
 const sliders = document.querySelectorAll(".slider");
