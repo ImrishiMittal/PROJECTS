@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/HISTORY/history.html")
+    window.location ="/CHANDIGARH/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/CULTURE/culture.html")
+    window.location ="/CHANDIGARH/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/TRADITON/tradition.html")
+    window.location ="/CHANDIGARH/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/TOURISM/tourism.html")
+    window.location ="/CHANDIGARH/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/FOOD/food.html")
+    window.location ="/CHANDIGARH/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/FESTIVALS/festival.html")
+    window.location ="/CHANDIGARH/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/DRESS/dress.html")
+    window.location ="/CHANDIGARH/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/LANGUAGES/languages.html")
+    window.location ="/CHANDIGARH/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/TRAVEL/travel.html")
+    window.location ="/CHANDIGARH/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/CHANDIGARH/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/CHANDIGARH/Things/GEOGRAPHICAL/geographical.html"
 })
 
 
