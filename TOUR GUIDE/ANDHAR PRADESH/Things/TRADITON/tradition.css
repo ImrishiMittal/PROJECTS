@@ -46,7 +46,7 @@ body::before {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: url("/IMAGES/culturee.jpeg");
+    background: url("/IMAGES/trad.jpeg");
     background-size: cover;
     opacity: 0.3;
     z-index: -1;
