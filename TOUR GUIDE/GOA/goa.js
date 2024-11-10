@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/GOA/Things/HISTORY/history.html")
+    window.location ="/GOA/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/GOA/Things/CULTURE/culture.html")
+    window.location ="/GOA/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/GOA/Things/TRADITON/tradition.html")
+    window.location ="/GOA/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/GOA/Things/TOURISM/tourism.html")
+    window.location ="/GOA/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/GOA/Things/FOOD/food.html")
+    window.location ="/GOA/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/GOA/Things/FESTIVALS/festival.html")
+    window.location ="/GOA/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/GOA/Things/DRESS/dress.html")
+    window.location ="/GOA/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/GOA/Things/LANGUAGES/languages.html")
+    window.location ="/GOA/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/GOA/Things/TRAVEL/travel.html")
+    window.location ="/GOA/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/GOA/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/GOA/Things/GEOGRAPHICAL/geographical.html"
 })
 
 
