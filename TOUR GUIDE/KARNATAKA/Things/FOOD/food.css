@@ -1,0 +1,89 @@
+*{
+    margin: 5px;
+}
+button {
+    height: 40px; 
+    width: 40px;
+    border-radius: 50%;
+    background-color: #a55907; 
+    border: none; 
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(255, 138, 4); 
+    transform: translateY(-2px); 
+    height: 45px; 
+    width: 45px;
+}
+button:active {
+    background-color: #004494; 
+    transform: translateY(0); 
+}
+
+button i {
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    font-family: "Prata", serif;
+    font-size: 60px;
+    text-decoration:dashed;
+    text-decoration-line: underline;
+}
+
+body::before {
+    content: "";
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: url("/IMAGES/food-backround.jpeg");
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div {
+    font-size: 18px;
+    padding: 5px;
+}
+.points{
+    font-size: 19px;
+}
+.heading {
+    font-size: 22px;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    box-shadow: 10px 10px 10px;
+    border-radius: 15px;
+}
+@media (max-width: 700px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .image-container img {
+        width: 80%; 
+    }
+}
