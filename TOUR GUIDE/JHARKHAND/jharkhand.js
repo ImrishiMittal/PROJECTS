@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/HISTORY/history.html")
+    window.location ="/JHARKHAND/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/CULTURE/culture.html")
+    window.location ="/JHARKHAND/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/TRADITON/tradition.html")
+    window.location ="/JHARKHAND/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/TOURISM/tourism.html")
+    window.location ="/JHARKHAND/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/FOOD/food.html")
+    window.location ="/JHARKHAND/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/FESTIVALS/festival.html")
+    window.location ="/JHARKHAND/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/DRESS/dress.html")
+    window.location ="/JHARKHAND/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/LANGUAGES/languages.html")
+    window.location ="/JHARKHAND/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/TRAVEL/travel.html")
+    window.location ="/JHARKHAND/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/JHARKHAND/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/JHARKHAND/Things/GEOGRAPHICAL/geographical.html"
 });
 const sliders = document.querySelectorAll(".slider");
 
