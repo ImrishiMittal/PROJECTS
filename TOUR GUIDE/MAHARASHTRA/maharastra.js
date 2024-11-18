@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/HISTORY/history.html")
+    window.location ="/MAHARASHTRA/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/CULTURE/culture.html")
+    window.location ="/MAHARASHTRA/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/TRADITON/tradition.html")
+    window.location ="/MAHARASHTRA/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/TOURISM/tourism.html")
+    window.location ="/MAHARASHTRA/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/FOOD/food.html")
+    window.location ="/MAHARASHTRA/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/FESTIVALS/festival.html")
+    window.location ="/MAHARASHTRA/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/DRESS/dress.html")
+    window.location ="/MAHARASHTRA/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/LANGUAGES/languages.html")
+    window.location ="/MAHARASHTRA/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/TRAVEL/travel.html")
+    window.location ="/MAHARASHTRA/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/MAHARASHTRA/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/MAHARASHTRA/Things/GEOGRAPHICAL/geographical.html"
 });
 
 

@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/HISTORY/history.html")
+    window.location ="/LAKSHADWEEP/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/CULTURE/culture.html")
+    window.location ="/LAKSHADWEEP/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/TRADITON/tradition.html")
+    window.location ="/LAKSHADWEEP/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/TOURISM/tourism.html")
+    window.location ="/LAKSHADWEEP/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/FOOD/food.html")
+    window.location ="/LAKSHADWEEP/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/FESTIVALS/festival.html")
+    window.location ="/LAKSHADWEEP/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/DRESS/dress.html")
+    window.location ="/LAKSHADWEEP/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/LANGUAGES/languages.html")
+    window.location ="/LAKSHADWEEP/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/TRAVEL/travel.html")
+    window.location ="/LAKSHADWEEP/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/LAKSHADWEEP/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/LAKSHADWEEP/Things/GEOGRAPHICAL/geographical.html"
 });
 
 
