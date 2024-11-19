@@ -1,0 +1,69 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for the entire page */
+#welcome-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+/* Large welcome message */
+#welcome-message h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    z-index: 10;
+}
+
+/* User name style */
+#user-name {
+    color: #4CAF50;
+}
+
+/* Container for the moving images */
+#moving-images {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Set the height of the image container */
+    overflow: hidden;
+}
+
+#image-row {
+    display: flex;
+    flex-direction: row;
+    animation: move-images 30s linear infinite;
+}
+
+#image-row img {
+    width: 200px; /* Adjust the image width as necessary */
+    height: auto;
+    margin-right: 20px; /* Space between the images */
+}
+
+/* Animation for moving images from right to left */
+@keyframes move-images {
+    0% {
+        transform: translateX(100%); /* Start the images from the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move the images to the left */
+    }
+}
