@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/HISTORY/history.html"
+    window.location ="/MIZORAM/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/CULTURE/culture.html"
+    window.location ="/MIZORAM/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/TRADITON/tradition.html"
+    window.location ="/MIZORAM/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/TOURISM/tourism.html"
+    window.location ="/MIZORAM/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/FOOD/food.html"
+    window.location ="/MIZORAM/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/FESTIVALS/festival.html"
+    window.location ="/MIZORAM/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/DRESS/dress.html"
+    window.location ="/MIZORAM/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/LANGUAGES/languages.html"
+    window.location ="/MIZORAM/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/TRAVEL/travel.html"
+    window.location ="/MIZORAM/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.loaction ="/MIZORAM/Things/GEOGRAPHICAL/geographical.html"
+    window.location ="/MIZORAM/Things/GEOGRAPHICAL/geographical.html"
 });
 
 
