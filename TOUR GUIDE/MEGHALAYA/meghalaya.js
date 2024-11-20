@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/HISTORY/history.html")
+    window.location ="/MEGHALAYA/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/CULTURE/culture.html")
+    window.location ="/MEGHALAYA/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/TRADITON/tradition.html")
+    window.location ="/MEGHALAYA/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/TOURISM/tourism.html")
+    window.location ="/MEGHALAYA/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/FOOD/food.html")
+    window.location ="/MEGHALAYA/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/FESTIVALS/festival.html")
+    window.location ="/MEGHALAYA/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/DRESS/dress.html")
+    window.location ="/MEGHALAYA/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/LANGUAGES/languages.html")
+    window.location ="/MEGHALAYA/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/TRAVEL/travel.html")
+    window.location ="/MEGHALAYA/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/MEGHALAYA/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/MEGHALAYA/Things/GEOGRAPHICAL/geographical.html"
 });
 
 
