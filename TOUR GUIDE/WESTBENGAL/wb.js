@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/HISTORY/history.html")
+    window.location = "/WESTBENGAL/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/CULTURE/culture.html")
+    window.location = "/WESTBENGAL/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/TRADITON/tradition.html")
+    window.location = "/WESTBENGAL/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/TOURISM/tourism.html")
+    window.location = "/WESTBENGAL/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/FOOD/food.html")
+    window.location = "/WESTBENGAL/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/FESTIVALS/festival.html")
+    window.location = "/WESTBENGAL/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/DRESS/dress.html")
+    window.location = "/WESTBENGAL/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/LANGUAGES/languages.html")
+    window.location = "/WESTBENGAL/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/TRAVEL/travel.html")
+    window.location = "/WESTBENGAL/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/WESTBENGAL/Things/GEOGRAPHICAL/geographical.html")
+    window.location = "/WESTBENGAL/Things/GEOGRAPHICAL/geographical.html"
 });
 
 const sliders = document.querySelectorAll(".slider");
