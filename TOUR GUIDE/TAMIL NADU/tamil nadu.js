@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/HISTORY/history.html")
+    window.location ="/TAMIL NADU/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/CULTURE/culture.html")
+    window.location ="/TAMIL NADU/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/TRADITON/tradition.html")
+    window.location ="/TAMIL NADU/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/TOURISM/tourism.html")
+    window.location ="/TAMIL NADU/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/FOOD/food.html")
+    window.location ="/TAMIL NADU/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/FESTIVALS/festival.html")
+    window.location ="/TAMIL NADU/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/DRESS/dress.html")
+    window.location ="/TAMIL NADU/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/LANGUAGES/languages.html")
+    window.location ="/TAMIL NADU/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/TRAVEL/travel.html")
+    window.location ="/TAMIL NADU/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/TAMIL NADU/Things/GEOGRAPHICAL/geographical.html")
+    window.location ="/TAMIL NADU/Things/GEOGRAPHICAL/geographical.html"
 });
 const sliders = document.querySelectorAll(".slider");
 
