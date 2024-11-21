@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/HISTORY/history.html")
+    window.location = "/UTTRAKHAND/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/CULTURE/culture.html")
+    window.location = "/UTTRAKHAND/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/TRADITON/tradition.html")
+    window.location = "/UTTRAKHAND/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/TOURISM/tourism.html")
+    window.location = "/UTTRAKHAND/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/FOOD/food.html")
+    window.location = "/UTTRAKHAND/Things/FOOD/food.html"
 })
-document.getElementById("featival").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/FESTIVALS/festival.html")
+document.getElementById("festival").addEventListener("click",()=>{
+    window.location = "/UTTRAKHAND/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/DRESS/dress.html")
+    window.location = "/UTTRAKHAND/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/LANGUAGES/languages.html")
+    window.location = "/UTTRAKHAND/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/TRAVEL/travel.html")
+    window.location = "/UTTRAKHAND/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/UTTRAKHAND/Things/GEOGRAPHICAL/geographical.html")
+    window.location = "/UTTRAKHAND/Things/GEOGRAPHICAL/geographical.html"
 });
 const sliders = document.querySelectorAll(".slider");
 
