@@ -1,29 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="culture.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>CULTURE</title>
 </head>
-
 <body>
-    <button id="styled-button"><i class="fa-solid fa-circle-arrow-left"></i></button>
+    <button id="styled-button">
+        <i class="fa-solid fa-circle-arrow-left"></i>
+    </button>
     <h1>CULTURE</h1>
+
     <div class="big">
-        
+        <!-- Culture of Rajasthan -->
+        <div>
+            <b class="heading">Culture of Rajasthan</b>
+            <p>Rajasthan, the "Land of Kings," is renowned for its vibrant and diverse culture, shaped by its historical grandeur, arid geography, and the influence of various dynasties, including the Rajputs. It is a mosaic of colorful traditions, music, art, architecture, and festivals that reflect the state's rich heritage.</p>
         </div>
 
-        <script>
-            let previous = document.getElementById("styled-button");
-            previous.addEventListener("click", () => {
-                window.location = ""
-            })
-        </script>
-</body>
+        <!-- Art and Craft -->
+        <div>
+            <b class="heading">1. Art and Craft</b>
+            <ul>
+                <li><strong>Textiles and Handicrafts:</strong> Rajasthan is famous for its intricate handicrafts, including <i>Bandhani</i> (tie-dye), <i>Leheriya</i> (wave pattern), and block-printed fabrics. The state's colorful turbans and dupattas are iconic.</li>
+                <li><strong>Pottery and Sculptures:</strong> Jaipur’s blue pottery and terracotta art are significant, while carved stone sculptures adorn temples and palaces.</li>
+                <li><strong>Jewelry:</strong> Rajasthan is renowned for its traditional jewelry, including Kundan, Meenakari, and Polki designs, which showcase fine craftsmanship.</li>
+            </ul>
+        </div>
 
+        <!-- Music and Dance -->
+        <div>
+            <b class="heading">2. Music and Dance</b>
+            <ul>
+                <li><strong>Music:</strong> Folk music, like <i>Maand</i>, <i>Pabuji Ki Phach</i>, and <i>Panihari</i>, tells tales of heroism and romance. Instruments like the <i>dholak</i>, <i>sarangi</i>, and <i>ektara</i> accompany these soulful melodies.</li>
+                <li><strong>Dance:</strong> Traditional dances like <i>Ghoomar</i> (performed by women in swirling skirts), <i>Kalbeliya</i> (serpentine movements by the Kalbeliya community), and <i>Bhavai</i> (balancing pots while dancing) highlight the state's rhythm and grace.</li>
+            </ul>
+        </div>
+
+        <!-- Architecture -->
+        <div>
+            <b class="heading">3. Architecture</b>
+            <p>Rajasthan's architectural heritage is a blend of Rajput, Mughal, and Jain styles, evident in:</p>
+            <ul>
+                <li><strong>Forts and Palaces:</strong> Majestic structures like the Amer Fort, Mehrangarh Fort, and City Palace are a testament to the state's royal history.</li>
+                <li><strong>Temples:</strong> Jain temples at Ranakpur and Dilwara are architectural masterpieces.</li>
+                <li><strong>Havelis:</strong> Ornate mansions like the Patwon Ki Haveli in Jaisalmer reflect intricate craftsmanship.</li>
+            </ul>
+        </div>
+
+        <!-- Festivals -->
+        <div>
+            <b class="heading">4. Festivals</b>
+            <ul>
+                <li><strong>Pushkar Camel Fair:</strong> A unique cultural event combining livestock trading and vibrant festivities.</li>
+                <li><strong>Desert Festival:</strong> Celebrated in Jaisalmer with camel races, folk performances, and traditional sports.</li>
+                <li><strong>Teej and Gangaur:</strong> These festivals honor goddess Parvati, marked by colorful processions and rituals.</li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="culture1.jpeg" alt="">
+            <img src="culture2.jpeg" alt="">
+        </div>
+        <!-- Cuisine -->
+        <div>
+            <b class="heading">5. Cuisine</b>
+            <ul>
+                <li><strong>Signature Dishes:</strong> Dal Baati Churma, Gatte Ki Sabzi, and Ker Sangri represent the state’s culinary richness.</li>
+                <li><strong>Sweets:</strong> Ghewar and Malpua are popular desserts.</li>
+            </ul>
+        </div>
+
+        <!-- Traditions and Customs -->
+        <div>
+            <b class="heading">6. Traditions and Customs</b>
+            <ul>
+                <li><strong>Rituals and Worship:</strong> Rajasthan follows a mix of Hindu, Jain, and folk traditions, with an emphasis on nature worship.</li>
+                <li><strong>Costumes:</strong> The state’s attire is vibrant and functional, with women wearing ghagras (long skirts) and men donning turbans.</li>
+            </ul>
+        </div>
+
+        <!-- Community Life -->
+        <div>
+            <b class="heading">7. Community Life</b>
+            <p>Rajasthan’s society is community-driven, with different castes and tribes contributing to its unique identity. The Bhil, Meena, and Garasia tribes have distinct customs and practices.</p>
+        </div>
+
+        <!-- Conclusion -->
+        <div>
+            <b class="heading">Conclusion</b>
+            <p>Rajasthan’s culture is a captivating blend of royal traditions, colorful celebrations, and artistic brilliance. It is a treasure trove of heritage that continues to fascinate visitors and preserve India’s rich cultural diversity.</p>
+        </div>
+    </div>
+
+    <script>
+        let previous = document.getElementById("styled-button");
+        previous.addEventListener("click", () => {
+            window.location = "/RAJASTHAN/Rajasthan.html";  // Add your previous page URL here
+        });
+    </script>
+</body>
 </html>
