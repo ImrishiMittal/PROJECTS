@@ -1,32 +1,32 @@
 document.getElementById("history").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/HISTORY/history.html")
+     window.location = "/TRIPURA/Things/HISTORY/history.html"
 })
 document.getElementById("culture").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/CULTURE/culture.html")
+    window.location = "/TRIPURA/Things/CULTURE/culture.html"
 })
 document.getElementById("tradion").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/TRADITON/tradition.html")
+    window.location = "/TRIPURA/Things/TRADITON/tradition.html"
 })
 document.getElementById("tourism").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/TOURISM/tourism.html")
+    window.location = "/TRIPURA/Things/TOURISM/tourism.html"
 })
 document.getElementById("food").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/FOOD/food.html")
+    window.location = "/TRIPURA/Things/FOOD/food.html"
 })
 document.getElementById("festival").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/FESTIVALS/festival.html")
+    window.location = "/TRIPURA/Things/FESTIVALS/festival.html"
 })
 document.getElementById("dress").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/DRESS/dress.html")
+   window.location = "/TRIPURA/Things/DRESS/dress.html"
 })
 document.getElementById("languages").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/LANGUAGES/languages.html")
+    window.location = "/TRIPURA/Things/LANGUAGES/languages.html"
 })
 document.getElementById("travel").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/TRAVEL/travel.html")
+   window.location = "/TRIPURA/Things/TRAVEL/travel.html"
 })
 document.getElementById("location").addEventListener("click",()=>{
-    window.open("/TRIPURA/Things/GEOGRAPHICAL/geographical.html")
+   window.location = "/TRIPURA/Things/GEOGRAPHICAL/geographical.html"
 });
 
 const sliders = document.querySelectorAll(".slider");
