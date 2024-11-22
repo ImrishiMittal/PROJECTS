@@ -72,7 +72,7 @@ button:hover {
 #image-row {
     display: flex;
     flex-direction: row;
-    animation: move-images 30s linear infinite;
+    animation: move-images 20s linear infinite; /* Moderate speed for horizontal movement */
 }
 
 #image-row img {
@@ -92,9 +92,11 @@ button:hover {
         transform: translateX(-100%); /* Move the images to the left */
     }
 }
+
+/* For screens smaller than 750px */
 @media (max-width: 750px) {
     #moving-images {
-        height: auto; /* Let height adjust based on the content */
+        height: auto; /* Adjust height automatically */
         width: 200px; /* Narrow down the container */
         position: relative;
         background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
@@ -103,7 +105,7 @@ button:hover {
 
     #image-row {
         flex-direction: column; /* Stack images vertically */
-        animation: move-images-vertical 20s linear infinite;
+        animation: move-images-vertical 15s cubic-bezier(0.97, 0.99, 0,-0.02); /* Moderate speed for vertical movement */
     }
 
     #image-row img {
