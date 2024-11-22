@@ -1,10 +1,10 @@
 let index = document.getElementById("hom");
 index.addEventListener("click",()=>{
-    window.open("/0INDEX/index.html")
+    window.location ="/0INDEX2/index1.html"
 })
     let login = document.getElementById("llin");
     login.addEventListener("click",()=>{
-        window.open("/LOGIN/login.html","_blank")
+        window.location ="/LOGIN/login.html"
     });
     let signup = document.getElementById("signup");
     signup.addEventListener("click",()=>{

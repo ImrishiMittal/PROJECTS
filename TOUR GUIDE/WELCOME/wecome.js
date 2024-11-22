@@ -5,3 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Display the user's name on the page
     document.getElementById('user-name').textContent = userName;
 });
+let next = document.getElementById("next").addEventListener("click",()=>{
+    window.open("/0INDEX/index.html");
+})
