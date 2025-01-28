@@ -9,22 +9,28 @@
 <body>
     <div class="container">
         <h1>FEEDBACK</h1>
-        <form action="">
+        <form name="myform" action="https://api.web3forms.com/submit" method="post" id="feedbackForm" novalidate>
+            <input type="hidden"
+                name="access_key" value="33cd1454-caae-4e81-b5a5-e312ccc229ed">
             <div>
                 <label for="name"><b>NAME</b></label>
-                <input type="text" placeholder="ENTER YOUR NAME" id="name" required>
+                <input type="text" placeholder="ENTER YOUR NAME" id="name" name="name" required>
+                <span class="error" id="nameError"></span>
             </div>
             <div>
                 <label for="mail"><b>EMAIL</b></label>
-                <input type="email" placeholder="EMAIL ADDRESS" id="mail" required>
+                <input type="email" placeholder="EMAIL ADDRESS" id="mail" name="mail" required>
+                <span class="error" id="emailError"></span>
             </div>
             <div>
                 <label for="phone"><b>PHONE NO.</b></label>
-                <input type="tel" placeholder="ENTER PHONE NO." id="phone" required>
+                <input type="tel" placeholder="ENTER PHONE NO." id="phone" name="phone" pattern="[0-9]{10}" required>
+                <span class="error" id="phoneError"></span>
             </div>
             <div>
                 <label for="age"><b>AGE</b></label>
-                <input type="number" placeholder="ENTER YOUR AGE" id="age" required>
+                <input type="number" placeholder="ENTER YOUR AGE" id="age" name="age" required>
+                <span class="error" id="ageError"></span>
             </div>
             <div>
                 <label for="gender"><b>GENDER</b></label>
@@ -32,9 +38,10 @@
                 <input type="radio" id="male" name="gender" value="male" required>
                 <label for="female">FEMALE</label>
                 <input type="radio" id="female" name="gender" value="female">
+                <span class="error" id="genderError"></span>
             </div>
             <div>
-                <label for=""><b>RATE YOUR EXPERINCE</b></label>
+                <label for=""><b>RATE YOUR EXPERIENCE</b></label>
                 <div class="rate">
                     <input type="radio" id="star5" name="rate" value="5" />
                     <label for="star5" title="text">5 stars</label>
@@ -46,16 +53,19 @@
                     <label for="star2" title="text">2 stars</label>
                     <input type="radio" id="star1" name="rate" value="1" />
                     <label for="star1" title="text">1 star</label>
-                  </div><br><br><br>
-        
+                </div>
+                <span class="error" id="rateError"></span>
+            </div><br><br>
             <div>
                 <label for="suggestion"><b>SUGGESTION</b></label><br>
-                <textarea id="suggestion" cols="30" rows="5" placeholder="ENTER YOUR SUGGESTION"></textarea>
+                <textarea id="suggestion" name="suggestion" cols="30" rows="5" placeholder="ENTER YOUR SUGGESTION"></textarea>
+                <span class="error" id="suggestionError"></span>
             </div>
             <div>
                 <button type="submit">SUBMIT</button>
             </div>
         </form>
+        <script src="feedback.js"></script>
     </div>
 </body>
 </html>
