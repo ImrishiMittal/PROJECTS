@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const loginButton = document.querySelector(".login");
 
     // Add event listener for the 'Sign Up' button
-    signupButton.addEventListener("click", function () {
+    signupButton.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent form submission
+
         if (validateForm()) {
             const username = usernameInput.value.trim();
             // Store the username in localStorage
@@ -20,9 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Add event listener for the 'Login' button
-    loginButton.addEventListener("click", function () {
+    loginButton.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent form submission
         alert("Redirecting to login...");
-        // You can add the logic to redirect to the login page here
+        // Redirect to login page
         window.location.href = "/LOGIN/login.html"; // Update this with the correct login page URL if necessary
     });
 
