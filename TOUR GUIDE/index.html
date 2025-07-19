@@ -5,34 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN UP</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/SIGNUP/signup.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div id="container">
         <div id="info">
             <h1>Sign Up</h1>
-            <form  action="https://api.web3forms.com/submit" method="post">
-                <input type="hidden"
-                name="access_key" value="33cd1454-caae-4e81-b5a5-e312ccc229ed">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="33cd1454-caae-4e81-b5a5-e312ccc229ed">
+                <input type="hidden" name="from_name" value="Rishi's Website">
+                <input type="hidden" name="subject" value="New Signup Submission">
                 <div id="sign">
                     <div>
                         <label for="USERNAME">Username</label>
-                        <input type="text" id="USERNAME" placeholder="Enter your username">
+                        <input type="text" id="USERNAME" name="username" placeholder="Enter your username" required>
                     </div>
                     <br>
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Enter your email">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
                     </div>
                     <br>
-                    <div>
+                    <!-- <div>
                         <label for="password">Password</label>
-                        <input type="password" id="password" placeholder="Enter password">
-                    </div>
+                        <input type="password" id="password" name="password" placeholder="Enter password" required>
+                    </div> -->
                 </div>
+            
                 <div id="SingUP">
-                    <button class="btn-primary"><b>SIGN UP</b></button>
+                    <button class="btn-primary" type="submit"><b>SIGN UP</b></button>
                 </div>
+            
                 <br>
                 <p><b>Already have an account?</b></p>
                 <button class="login btn-secondary lbt"><b>Login</b></button>
@@ -45,6 +48,6 @@
             </form>
         </div>
     </div>
-    <script src="/SIGNUP/signup.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

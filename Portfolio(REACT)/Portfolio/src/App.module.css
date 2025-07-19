@@ -1,0 +1,68 @@
+.body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6vw;
+    background-color: black;
+  }
+  
+  .name {
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .FL {
+    color: rgb(255, 0, 43);
+    font-family: "Merriweather", serif;
+  }
+  
+  .amenities {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+  }
+  
+  .amenities a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0.4em 0.6em;
+    transition: all 0.3s ease;
+  }
+  
+  /* Exclude 'Hire Me' from hover color change */
+  .amenities a:not(.Hire):hover {
+    color: rgb(225, 0, 43);
+  }
+  
+  .amenities a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    width: 0%;
+    background-color: rgb(225, 0, 43); /* red underline */
+    transition: width 0.3s ease;
+  }
+  
+  .amenities a:not(.Hire):hover::after {
+    width: 100%;
+  }
+  
+  .Hire {
+    background-color: rgb(225, 0, 43);
+    padding: 0.4em 0.8em;
+    border-radius: 1vh;
+    color: white;
+    text-decoration: none;
+  }
+  

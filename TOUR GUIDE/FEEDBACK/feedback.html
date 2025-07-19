@@ -9,9 +9,10 @@
 <body>
     <div class="container">
         <h1>FEEDBACK</h1>
-        <form name="myform" action="https://api.web3forms.com/submit" method="post" id="feedbackForm" novalidate>
-            <input type="hidden"
-                name="access_key" value="33cd1454-caae-4e81-b5a5-e312ccc229ed">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="33cd1454-caae-4e81-b5a5-e312ccc229ed">
+            <input type="hidden" name="from_name" value="Rishi's Website">
+            <input type="hidden" name="subject" value="FEEDBACK">
             <div>
                 <label for="name"><b>NAME</b></label>
                 <input type="text" placeholder="ENTER YOUR NAME" id="name" name="name" required>
