@@ -69,20 +69,64 @@
     justify-content: space-between;
     gap: 2rem;
     padding: 2rem;
-    /* margin: 1%; */
+    width: 100%;
   }
   
   .Description {
-   min-width: 50%;
-   color: white;
+    width: 50%;
+    color: white;
+  }
+
+  .hi{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .FName{
+    font-size: 40px;
+    color: rgb(225, 0, 43);
+    font-weight: 1000;
+  }
+  .LName{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+  }
+  .domain{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .about{
+    font-size: 18.99px;
+    text-align: justify;
+  }
+
+
+  
+  .pfp {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-
-
-  .pfp {
-    min-width: 50%;
-    background-color: rgb(239, 223, 223);
+  .headshot {
+    width: 35vw;
+    height: 70vh;
+    border: 6px solid rgb(225, 0, 43); 
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
   }
-  .headshot{
-    background-color: aqua;
+  
+  .headshot img {
+    position: absolute;
+    width: 130%;
+    height: auto;
+    top: 10;
+    transform: translateY(-4.5%); 
   }
+  

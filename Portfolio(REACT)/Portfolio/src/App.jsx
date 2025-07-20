@@ -8,7 +8,6 @@ import NavBar from "./NavBar";
 import Intro from "./Intro";
 
 function App() {
-  console.log("App rendered");
   return (
     <>
     <NavBar/>
