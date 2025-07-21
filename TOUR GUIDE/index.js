@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let isValid = true;
 
         const username = usernameInput.value.trim();
-        if (username === "" || !/^[a-zA-Z0-9]+$/.test(username)) {
+        if (username === "" || !/^[a-zA-Z0-9\s._-]+$/.test(username)) {
             alert("Please enter a valid username. Only letters and numbers allowed.");
             isValid = false;
         }

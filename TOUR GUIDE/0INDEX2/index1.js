@@ -2,10 +2,10 @@ let index = document.getElementById("home");
     index.addEventListener("click", ()=>{
         window.open("/0INDEX/index.html")
     })
-    let login = document.getElementById("llin");
-    login.addEventListener("click",()=>{
-        window.open("/LOGIN/login.html")
-    })
+    // let login = document.getElementById("llin");
+    // login.addEventListener("click",()=>{
+    //     window.open("/LOGIN/login.html")
+    // })
     let signup = document.getElementById("signup");
     signup.addEventListener("click",()=>{
         window.location.href = "/SIGNUP/SIGNUP.HTML";
