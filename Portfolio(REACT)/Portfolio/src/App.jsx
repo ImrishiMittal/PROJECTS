@@ -6,12 +6,14 @@ import './global.css';
 import styles from "./App.module.css";
 import NavBar from "./NavBar";
 import Intro from "./Intro";
+import Icons from "./Icons";
 
 function App() {
   return (
     <>
     <NavBar/>
     <Intro/>
+    <Icons/>
     </>
   );
 }

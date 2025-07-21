@@ -130,3 +130,26 @@
     transform: translateY(-4.5%); 
   }
   
+
+
+  .icons {
+    display: flex;
+    flex-direction: row; /* Ensures items are side by side */
+    gap: 25px;            /* Space between icons */
+    margin-top: -6%;
+    margin-left: 2%;
+    padding: 5px;
+  }
+  
+  .icons a {
+    font-size: 1.6rem;
+    color: #f60404; /* Your icon color */
+    transition: transform 0.2s ease;
+  }
+  
+  .icons a:hover {
+    transform: scale(1.2); /* Optional hover effect */
+    cursor: pointer;
+  }
+  
+  
