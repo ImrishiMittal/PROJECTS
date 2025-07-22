@@ -8,6 +8,7 @@ import NavBar from "./NavBar";
 import Intro from "./Intro";
 import Icons from "./Icons";
 import Buttons from "./Buttons";
+import Services from "./Services";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Intro/>
     <Icons/>
     <Buttons/>
+    <Services/>
     </>
   );
 }

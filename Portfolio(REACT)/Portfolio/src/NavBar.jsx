@@ -10,7 +10,7 @@ function NavBar() {
           </a>
           <div className={styles.amenities}>
             <a href="#about">About</a>
-            <a href="">Services</a>
+            <a href="#services">Services</a>
             <a href="#Resume">Resume</a>
             <a href="">Skills</a>
             <a href="">Project</a>
