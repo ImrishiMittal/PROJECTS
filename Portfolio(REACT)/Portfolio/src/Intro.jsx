@@ -2,7 +2,8 @@ import styles from "./App.module.css";
 function Intro() {
   return (
     <>
-      <div className={styles.Intro} id ="about">
+    <span className={styles.invisible}  id ="about" ></span>
+      <div className={styles.Intro}>
         <div className={styles.Description}>
           <div className={styles.hi}>HELLO I'M</div>
           <div className={styles.Introname}>
@@ -19,10 +20,10 @@ function Intro() {
             expertise in the MERN stack, I enjoy solving real-world problems
             through efficient and scalable code. My problem-solving skills are
             strengthened through consistent DSA practice in Java and
-            project-based learning. I'm also exploring the world of Machine
+            project-based learning. <span id = "contact">I'm</span>  also exploring the world of Machine
             Learning to expand my skill set and stay aligned with evolving tech
             trends. Always eager to collaborate, learn, and contribute to
-            impactful products.
+            impactful <span id = "Resume"></span> products.
           </div>
         </div>
         <div className={styles.pfp}>

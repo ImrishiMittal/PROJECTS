@@ -7,7 +7,7 @@ import { PiFigmaLogoBold } from "react-icons/pi";
 function Services() {
   return (
     <>
-      <div id="services">
+      <div>
         <h2>SERIVICES</h2>
         <div className={styles.cards}>
           <div>

@@ -8,7 +8,7 @@ import { FaFigma } from "react-icons/fa6";
 function Icons() {
   return (
     <>
-      <div className={styles.icons} id = "contact">
+      <div className={styles.icons} >
         <a
           href="https://www.linkedin.com/in/rishi-mittal-a8a7b7275/"
           target="_blank"
