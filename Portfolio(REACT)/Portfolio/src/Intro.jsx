@@ -2,7 +2,7 @@ import styles from "./App.module.css";
 function Intro() {
   return (
     <>
-      <div className={styles.Intro}>
+      <div className={styles.Intro} id ="about">
         <div className={styles.Description}>
           <div className={styles.hi}>HELLO I'M</div>
           <div className={styles.Introname}>
@@ -11,7 +11,7 @@ function Intro() {
           </div>
           <div className={styles.domain}>Front-End Developer</div>
           <br />
-          <div className={styles.about} id ="about">
+          <div className={styles.about} >
             Hi, I’m Rishi Mittal — a passionate Front-End Developer focused on
             building clean, responsive, and user-friendly web interfaces. I have
             hands-on experience with HTML, CSS, JavaScript, Bootstrap, and
