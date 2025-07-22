@@ -11,7 +11,7 @@ function Intro() {
           </div>
           <div className={styles.domain}>Front-End Developer</div>
           <br />
-          <div className={styles.about}>
+          <div className={styles.about} id ="about">
             Hi, I’m Rishi Mittal — a passionate Front-End Developer focused on
             building clean, responsive, and user-friendly web interfaces. I have
             hands-on experience with HTML, CSS, JavaScript, Bootstrap, and

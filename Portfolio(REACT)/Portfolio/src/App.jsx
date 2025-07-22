@@ -7,6 +7,7 @@ import styles from "./App.module.css";
 import NavBar from "./NavBar";
 import Intro from "./Intro";
 import Icons from "./Icons";
+import Buttons from "./Buttons";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <NavBar/>
     <Intro/>
     <Icons/>
+    <Buttons/>
     </>
   );
 }

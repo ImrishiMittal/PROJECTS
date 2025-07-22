@@ -9,12 +9,12 @@ function NavBar() {
             <span className={styles.FL}>M</span>ittal
           </a>
           <div className={styles.amenities}>
-            <a href="">About</a>
+            <a href="#about">About</a>
             <a href="">Services</a>
-            <a href="">Resume</a>
+            <a href="#Resume">Resume</a>
             <a href="">Skills</a>
             <a href="">Project</a>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
             <a className={styles.Hire} href="">Hire Me</a>
           </div>
         </div>

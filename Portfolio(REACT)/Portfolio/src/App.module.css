@@ -152,4 +152,40 @@
     cursor: pointer;
   }
   
+  .buttonContainer {
+    display: flex;
+    gap: 20px;
+    justify-content:flex-start;
+    margin-top: 20px;
+    margin-left: 2%;
+  }
   
+  .button {
+    background-color: #f60404;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    min-width: 3%;
+  }
+  
+  .button:hover {
+    background-color: #c30000;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .contact{
+    color: rgb(225, 0, 43);
+    background-color: black;
+    border: 2px solid rgb(225, 0, 43);
+  }
+  .contact:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
