@@ -12,7 +12,7 @@ function NavBar() {
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#Resume">Resume</a>
-            <a href="">Skills</a>
+            <a href="#skills">Skills</a>
             <a href="">Project</a>
             <a href="#contact">Contact</a>
             <a className={styles.Hire} href="">Hire Me</a>

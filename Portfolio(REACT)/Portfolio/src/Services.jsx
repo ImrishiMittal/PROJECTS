@@ -26,7 +26,7 @@ function Services() {
           <div>
           <TbBrandMysql />
           <h4>Structued Query Language</h4>
-          <p>I offer SQL expertise for database management, creating and optimizing queries to ensure efficient data handling in web applications.</p>
+          <p>I offer SQL expertise for database management, creating and optimizing queries to ensure efficient data handling in web <span id="skills">applications</span>.</p>
           </div>
           <div>
           <FaGithub />

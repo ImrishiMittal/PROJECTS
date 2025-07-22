@@ -1,0 +1,48 @@
+h2{
+    text-align: center;
+    margin: 2%;
+    background-color: rgb(255, 6, 6);
+    color: white;
+    border-radius: 20px;
+    font-family: "Merriweather", serif;
+}
+.h4{
+    margin-left: 2%;
+    background: linear-gradient(to right, red, black);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.cards img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    background-color: black;
+    margin: 4%;
+    margin-left: 30px;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px red;
+    padding: 10px;
+}
+.cards img:hover{
+    transform: rotateX(360deg);
+    transition: all 1.5s ease-in;
+    box-shadow: -5px 10px 10px red;
+}
+.skillsLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.para{
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
