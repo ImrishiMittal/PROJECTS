@@ -10,7 +10,6 @@ import Icons from "./Icons";
 import Buttons from "./Buttons";
 import Services from "./Services";
 import Skills from "./Skills";
-
 function App() {
   return (
     <>
