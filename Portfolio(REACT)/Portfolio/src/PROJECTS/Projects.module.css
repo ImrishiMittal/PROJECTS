@@ -1,0 +1,56 @@
+.h2{
+    text-align: center;
+    margin: 2%;
+    background-color: rgb(255, 6, 6);
+    color: white;
+    border-radius: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.h4{
+    margin-left: 2%;
+    background: linear-gradient(to right, red, black);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.h5{
+    color: white;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+ul{
+    color: red;
+    list-style-type:square;
+    font-size: 20px;
+}
+p{
+    color: white;
+    margin-left: 2%;
+}
+.parahead{
+    color: white;
+    margin-left: 2%;
+    font-size: large;
+    font-weight: bold;
+}
+.paragraph li{
+    color: white;
+    list-style-type:lower-roman;
+}
+.live{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content:center;
+}
+.live a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(196, 4, 4);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin-left: 2%;
+}

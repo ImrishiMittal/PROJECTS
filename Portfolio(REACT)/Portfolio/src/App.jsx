@@ -11,6 +11,7 @@ import Buttons from "./RESUME_CON BUTTONS/Buttons";
 import Services from "./SERVICES/Services";
 import Skills from "./SKILLS/Skills";
 import Internship from "./INTERNSHIP/Internship";
+import Projects from "./PROJECTS/Projects";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
     <Services/>
     <Skills/>
     <Internship/>
+    <Projects/>
     </>
   );
 }
