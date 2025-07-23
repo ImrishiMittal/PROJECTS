@@ -1,6 +1,0 @@
-function Intership(){
-    return(
-        <>
-        </>
-    )
-}

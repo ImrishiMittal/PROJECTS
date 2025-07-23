@@ -10,6 +10,7 @@ import Icons from "./ICONS/Icons";
 import Buttons from "./RESUME_CON BUTTONS/Buttons";
 import Services from "./SERVICES/Services";
 import Skills from "./SKILLS/Skills";
+import Internship from "./INTERNSHIP/Internship";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
     <Buttons/>
     <Services/>
     <Skills/>
+    <Internship/>
     </>
   );
 }
