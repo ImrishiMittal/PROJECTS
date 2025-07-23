@@ -30,7 +30,7 @@ h2{
     padding: 10px;
 }
 .cards img:hover{
-    transform: rotateX(360deg);
+    transform: rotateY(360deg);
     transition: all 1.5s ease-in;
     box-shadow: -5px 10px 10px red;
 }
