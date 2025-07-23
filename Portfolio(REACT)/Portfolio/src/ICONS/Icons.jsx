@@ -1,4 +1,4 @@
-import styles from "./App.module.css";
+import styles from "../App.module.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";

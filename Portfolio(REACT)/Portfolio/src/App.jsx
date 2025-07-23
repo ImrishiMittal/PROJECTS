@@ -4,12 +4,12 @@ import viteLogo from "/vite.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './global.css';
 import styles from "./App.module.css";
-import NavBar from "./NavBar";
-import Intro from "./Intro";
-import Icons from "./Icons";
-import Buttons from "./Buttons";
-import Services from "./Services";
-import Skills from "./Skills";
+import NavBar from "./NAV/NavBar";
+import Intro from "./INTRO/Intro"
+import Icons from "./ICONS/Icons";
+import Buttons from "./RESUME_CON BUTTONS/Buttons";
+import Services from "./SERVICES/Services";
+import Skills from "./SKILLS/Skills";
 function App() {
   return (
     <>
