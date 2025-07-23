@@ -28,7 +28,7 @@ function Internship(){
                     <p>During this incredible journey, I had the opportunity to work on various projects that enhanced my skills in HTML, CSS, JavaScript, and Bootstrap. From building responsive web pages to implementing dynamic features, each project challenged me to learn and grow as a developer.</p>
                 </details>
                 <a href="./offer letter GAO TECH.pdf" download>OFFER LETTER</a>
-                <a href="./GLORA VITA/Gloria Vita.pdf" download>COMPLETION</a>
+                <a id="Project" href="./GLORA VITA/Gloria Vita.pdf" download>COMPLETION</a>
             </div>
         </div>
         </>
