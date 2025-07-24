@@ -12,6 +12,7 @@ import Services from "./SERVICES/Services";
 import Skills from "./SKILLS/Skills";
 import Internship from "./INTERNSHIP/Internship";
 import Projects from "./PROJECTS/Projects";
+import Education from "./EDUCATION/Education";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
     <Skills/>
     <Internship/>
     <Projects/>
+    <Education/>
     </>
   );
 }

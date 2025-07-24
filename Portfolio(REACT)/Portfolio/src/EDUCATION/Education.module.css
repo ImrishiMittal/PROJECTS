@@ -1,0 +1,57 @@
+.h2{
+    text-align: center;
+    margin: 2%;
+    background-color: rgb(255, 6, 6);
+    color: white;
+    border-radius: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.eduDetails{
+    display: flex;
+    flex-direction: column;
+}
+.scholl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: linear-gradient(red, black);
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    gap: 10px;
+  }
+  
+  .schoolTitle {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .scdetails {
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .h4 {
+    text-align: center;
+  }
+  
+.college{
+    color: white;
+    background: linear-gradient(red,black);
+    border: 3px solid white;
+    border-radius: 15px;
+}
+.clgdetails{
+    margin-left: 15px;
+}
+.ans{
+    font-family: "Merriweather", serif;
+    color: rgb(254, 255, 170);
+    display:inline;
+}
