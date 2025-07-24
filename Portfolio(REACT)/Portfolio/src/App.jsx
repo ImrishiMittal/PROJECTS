@@ -13,6 +13,7 @@ import Skills from "./SKILLS/Skills";
 import Internship from "./INTERNSHIP/Internship";
 import Projects from "./PROJECTS/Projects";
 import Education from "./EDUCATION/Education";
+import Certifications from "./CERTIFICATIONS/Certifications";
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
     <Internship/>
     <Projects/>
     <Education/>
+    <Certifications/>
     </>
   );
 }
