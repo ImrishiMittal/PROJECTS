@@ -1,0 +1,40 @@
+.h2{
+    text-align: center;
+    margin: 2%;
+    background-color: rgb(255, 6, 6);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: "Merriweather", serif;
+}
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color: #000000;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    width: 250px;
+    transition: transform 0.3s ease;
+    border: 3px solid white;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: -10px 8px 6px rgb(212, 212, 212);
+  }
+  
+  .h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color:rgb(255, 187, 0) ;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    color: #ffffff;
+  }

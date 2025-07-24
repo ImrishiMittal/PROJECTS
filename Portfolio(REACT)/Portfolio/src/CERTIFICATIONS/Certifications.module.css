@@ -37,7 +37,6 @@
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    border: 2px solid white;
   }
   .downloadBtn:hover{
     background-color: blue;
