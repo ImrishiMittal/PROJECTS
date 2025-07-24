@@ -15,6 +15,7 @@ import Projects from "./PROJECTS/Projects";
 import Education from "./EDUCATION/Education";
 import Certifications from "./CERTIFICATIONS/Certifications";
 import Activities from "./Activities/Activities";
+import Contact from "./RESUME_CON BUTTONS/Contact";
 function App() {
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
     <Education/>
     <Certifications/>
     <Activities/>
+    <Contact/>
     </>
   );
 }

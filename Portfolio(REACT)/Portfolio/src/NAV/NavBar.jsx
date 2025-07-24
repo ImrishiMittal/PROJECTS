@@ -14,7 +14,7 @@ function NavBar() {
             <a href="#Resume">Resume</a>
             <a href="#skills">Skills</a>
             <a href="#Project">Project</a>
-            <a href="#contact">Contact</a>
+            <a href="#Contact">Contact</a>
             <a className={styles.Hire} href="">Hire Me</a>
           </div>
         </div>
