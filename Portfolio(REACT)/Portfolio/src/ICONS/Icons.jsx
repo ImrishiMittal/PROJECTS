@@ -48,6 +48,7 @@ function Icons() {
           href="https://www.figma.com/@rishimittal"
           target="_blank"
           rel="noopener noreferrer"
+          id="services"
         >
           <FaFigma />
         </a>

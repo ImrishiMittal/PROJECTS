@@ -14,12 +14,7 @@ function Projects() {
             </li>
           </ul>
           <p>
-            Bharat Exploration is a dynamic and responsive front-end web
-            application designed to serve as a virtual tour guide for travelers
-            across India. The platform showcases popular tourist destinations
-            across various Indian states, complete with high-quality visuals,
-            interactive UI elements, and easy navigation to explore
-            location-specific highlights.
+            Bharat Exploration is a dynamic and responsive front-end web application designed to serve as a comprehensive virtual tour guide for travelers across India. Beyond just listing popular tourist destinations, the platform offers an in-depth cultural experience by integrating detailed information for each state and union territory. This includes sections on culture, traditions, local festivals, languages spoken, transportation options, geographical highlights, and travel essentials, making it a one-stop resource for anyone exploring the diversity of India. The application combines high-quality visuals with an intuitive UI to ensure easy navigation and immersive user engagement.
           </p>
           <div>
             <div className={styles.parahead}>Key Features: </div>
