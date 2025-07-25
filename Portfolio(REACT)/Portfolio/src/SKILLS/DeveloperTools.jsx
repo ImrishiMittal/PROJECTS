@@ -14,8 +14,6 @@ function DeveloperTools() {
     return (
         <>
             <h4 className={styles.h4}>DEVELOPER TOOLS</h4>
-
-            {/* Desktop View */}
             <div className={`${styles.cards} ${styles.desktopCards}`}>
                 {tools.map((tool, index) => (
                     <div className={styles.skillsLogo} key={index}>
@@ -24,8 +22,6 @@ function DeveloperTools() {
                     </div>
                 ))}
             </div>
-
-            {/* Mobile Carousel View */}
             <div className={styles.mobileSwiper}>
                 <Swiper
                     modules={[Navigation]}

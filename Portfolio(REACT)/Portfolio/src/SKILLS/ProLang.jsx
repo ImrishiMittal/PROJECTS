@@ -13,8 +13,6 @@ function ProLang() {
     return (
         <>
             <h4 className={styles.h4}>PROGRAMMING LANGUAGES</h4>
-
-            {/* Desktop View */}
             <div className={`${styles.cards} ${styles.desktopCards}`}>
                 {languages.map((lang, index) => (
                     <div className={styles.skillsLogo} key={index}>
@@ -23,8 +21,6 @@ function ProLang() {
                     </div>
                 ))}
             </div>
-
-            {/* Mobile Carousel View */}
             <div className={styles.mobileSwiper}>
                 <Swiper
                     modules={[Navigation]}
