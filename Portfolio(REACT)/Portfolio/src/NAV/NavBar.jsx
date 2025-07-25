@@ -1,5 +1,14 @@
 import styles from "../App.module.css";
+import { FaBars } from "react-icons/fa";
+import { useState } from "react";
+
 function NavBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(prev => !prev);
+  };
+
   return (
     <>
       <div className={styles.body}>
@@ -8,7 +17,14 @@ function NavBar() {
             <span className={styles.FL}>R</span>ishi{" "}
             <span className={styles.FL}>M</span>ittal
           </a>
-          <div className={styles.amenities}>
+
+          <span className={styles.bars} onClick={toggleMenu}><FaBars /></span>
+
+          <div
+            className={`${styles.amenities} ${
+              isMenuOpen ? styles.showMenu : ""
+            }`}
+          >
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#Resume">Resume</a>
