@@ -41,8 +41,75 @@ h2{
     text-align: center;
 }
 .para{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 5px;
     font-size: 20px;
     font-weight: bolder;
 }
+.mobileSwiper {
+    padding: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .carouselImg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px red;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 1000px) {
+    .desktopCards {
+      display: none;
+    }
+  
+    .mobileSwiper {
+      display: block;
+      padding: 20px;
+    }
+  
+    /* ✅ Correct targeting of navigation buttons */
+    :global(.swiper-button-next),
+    :global(.swiper-button-prev) {
+      color: red !important;
+      font-weight: 900 !important;
+      font-size: 24px !important;
+      background: black;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    :global(.swiper-button-next){
+        margin-right: -10px;
+    }
+    :global(.swiper-button-prev){
+        margin-left: -12px;
+    }
+  
+    .skillsLogo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .skillsLogo img {
+      width: 80%;
+      height: auto;
+      max-height: 180px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .databaseImg {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
