@@ -89,6 +89,11 @@
   color: white;
   text-decoration: none;
 }
+@media only screen and (max-width:600px) {
+  .themeToggle{
+    margin-left: 100px;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   .navbar {
