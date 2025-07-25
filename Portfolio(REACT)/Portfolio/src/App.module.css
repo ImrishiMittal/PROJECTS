@@ -192,8 +192,42 @@
     top: 10;
     transform: translateY(-4.5%); 
   }
-  
 
+  @media only screen and (max-width: 1000px) {
+    .Intro {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .pfp {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .headshot {
+      width: 60vw;
+      height: 60vw;
+    }
+  
+    .Description {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .hi,
+    .domain,
+    .about {
+      text-align: center;
+    }
+  
+    .about {
+      padding: 0 1rem;
+    }
+  }
+
+
+  
+/*               ICON                         */
   .icons {
     display: flex;
     flex-direction: row; /* Ensures items are side by side */
