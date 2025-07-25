@@ -184,25 +184,27 @@
   padding: 2rem;
   width: 100%;
   margin-top: 80px;
+  background-color: var(--bg);
+  color: var(--text-color);
 }
 
 .Description {
   width: 50%;
-  color: white;
+  color: var(--text-color);
 }
 
 .hi{
   font-size: 25px;
   font-weight: bold;
 }
-.FName{
+.FName {
   font-size: 40px;
-  color: rgb(225, 0, 43);
+  color: var(--primary-color);
   font-weight: 1000;
 }
-.LName{
+.LName {
   font-size: 40px;
-  color: rgb(255, 255, 255);
+  color: var(--text-color);
   font-weight: 1000;
 }
 .domain{
@@ -221,20 +223,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* handles both colors and gradients */
 }
 
+/* YourComponent.module.css */
 .headshot {
   width: 35vw;
   height: 70vh;
-  border: 6px solid rgb(225, 0, 43); 
   border-radius: 50%;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: black;
+  border: 6px solid var(--primary-color);
+  background: var(--pic-bg); /* ✅ THIS IS CRITICAL */
 }
+
 
 .headshot img {
   position: absolute;
