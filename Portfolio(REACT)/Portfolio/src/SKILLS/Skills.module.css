@@ -83,10 +83,10 @@
   /* Swiper Buttons */
   :global(.swiper-button-next),
   :global(.swiper-button-prev) {
-    color: var(--letter-color) !important;
+    color: rgb(0, 0, 0) !important;
     font-weight: 900 !important;
     font-size: 24px !important;
-    background: rgb(252, 251, 251);
+    background: rgb(0, 0, 0);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -95,13 +95,12 @@
     justify-content: center;
   }
   
-  :global(.swiper-button-next) {
-    margin-right: -10px;
-  }
-  :global(.swiper-button-prev) {
-    margin-left: -12px;
-  }
-  
+  :global(.swiper-button-next::after),
+:global(.swiper-button-prev::after) {
+  color: var(--text-color) !important;        /* Arrow color */
+  font-size: 18px !important;     /* Arrow size */
+  font-weight: bold;
+}
   /* Responsive Breakpoints */
   @media only screen and (max-width: 1000px) {
     .desktopCards {

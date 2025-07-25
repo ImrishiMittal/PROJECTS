@@ -53,7 +53,7 @@ function NavBar() {
           <a href="#skills">Skills</a>
           <a href="#Project">Project</a>
           <a href="#Contact">Contact</a>
-          <a className={styles.Hire} href="">
+          <a className={styles.Hire} href="#Contact">
             Hire Me
           </a>
         </div>
