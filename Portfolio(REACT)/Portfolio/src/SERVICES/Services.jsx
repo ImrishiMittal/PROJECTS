@@ -8,7 +8,7 @@ function Services() {
   return (
     <>
       <div>
-        <h2>SERIVICES</h2>
+        <h2 className={styles.h2}>SERIVICES</h2>
         <div className={styles.cards}>
           <div>
             <RiComputerFill />

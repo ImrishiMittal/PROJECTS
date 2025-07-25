@@ -40,7 +40,7 @@
 }
 
 .FL {
-  color: rgb(255, 0, 43);
+  color:var(--letter-color);
   font-family: "Merriweather", serif;
 }
 
@@ -237,7 +237,6 @@
   justify-content: center;
   position: relative;
   border: 6px solid var(--primary-color);
-  background: var(--pic-bg); /* ✅ THIS IS CRITICAL */
 }
 
 
@@ -295,7 +294,7 @@
 
 .icons a {
   font-size: 1.6rem;
-  color: #f60404; /* Your icon color */
+  color: var(--b-color); /* Your icon color */
   transition: transform 0.2s ease;
 }
 
@@ -314,7 +313,7 @@
 }
 
 .button {
-  background-color: #f60404;
+  background-color:var(--heading-bg);
   color: white;
   padding: 12px 20px;
   text-decoration: none;
@@ -326,7 +325,7 @@
 }
 
 .button:hover {
-  background-color: #c30000;
+  background-color:var( --darker-bg);
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -354,7 +353,7 @@ input, textarea {
 button {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #0077ff;
+  background-color: var(--heading-bg);
   color: white;
   border: none;
   border-radius: 8px;

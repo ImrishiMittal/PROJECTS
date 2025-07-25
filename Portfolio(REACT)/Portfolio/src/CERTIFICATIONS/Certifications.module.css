@@ -1,7 +1,7 @@
 .h2{
     text-align: center;
     margin: 2%;
-    background-color: rgb(255, 6, 6);
+    background-color: var( --b-color);
     color: rgb(255, 255, 255);
     border-radius: 20px;
     font-family: "Merriweather", serif;
@@ -13,7 +13,7 @@
   }
   
   .slide {
-    background: linear-gradient(rgb(254, 4, 4),black);
+    background: linear-gradient(var(--slide-color),black);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -27,7 +27,7 @@
     border-radius: 10px;
   }
   .title{
-    color: rgb(252, 219, 86);
+    color: var(--card-title);
   }
 
   .downloadBtn{
@@ -40,4 +40,20 @@
   }
   .downloadBtn:hover{
     background-color: blue;
+  }
+  .issuer{
+    color: var(--text-color);
+  }
+  :global(.swiper-button-next),
+  :global(.swiper-button-prev) {
+    color: white !important;
+    font-weight: 900 !important;
+    font-size: 24px !important;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }

@@ -1,5 +1,6 @@
 import styles from "./Certifications.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import '../global.css'
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
@@ -69,7 +70,7 @@ function Certifications() {
         {certifications.map((cert, index) => (
           <SwiperSlide key={index} className={styles.slide}>
             <h3 className={styles.title}>{cert.title}</h3>
-            <p>{cert.issuer}</p>
+            <p className={styles.issuer}>{cert.issuer}</p>
             <a href={cert.image} download className={styles.downloadBtn}>
               Download Certificate
             </a>

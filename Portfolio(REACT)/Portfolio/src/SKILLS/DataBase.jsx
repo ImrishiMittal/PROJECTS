@@ -19,10 +19,10 @@ function DataBase() {
 
       {/* Mobile View */}
       <Swiper
-        modules={[Navigation]}
-        spaceBetween={20}
-        slidesPerView={1}
-        navigation
+        // modules={[Navigation]}
+        // spaceBetween={20}
+        // slidesPerView={1}
+        // navigation
         loop
         className={styles.mobileSwiper}
       >
