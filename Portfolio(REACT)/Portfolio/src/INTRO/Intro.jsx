@@ -29,7 +29,7 @@ function Intro() {
         </div>
         <div className={styles.pfp}>
           <div className={styles.headshot}>
-            <img src="./image/picofme.png" alt="" />
+            <img src="./image/pfp.jpg" alt="" />
           </div>
         </div>
       </div>

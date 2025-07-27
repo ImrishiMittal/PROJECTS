@@ -237,7 +237,7 @@
 /* YourComponent.module.css */
 .headshot {
   width: 35vw;
-  height: 70vh;
+  height: 90vh;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -269,7 +269,7 @@
 
   .headshot {
     width: 60vw;
-    height: 60vw;
+    height: 70vw;
   }
 
   .Description {
