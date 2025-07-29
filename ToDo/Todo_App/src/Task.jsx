@@ -1,18 +1,27 @@
+import { useState } from "react";
 import { IoAddCircle } from "react-icons/io5";
 import styles from "./Todo.module.css";
 
-function Task({ current_text, update_text, handleAddTask }) {
+function Task({ onAdd }) {
+  const [currentText, setCurrentText] = useState("");
+
+  const handleAdd = () => {
+    if (currentText.trim() !== "") {
+      onAdd(currentText);
+      setCurrentText("");
+    }
+  };
+
   return (
-    <div className={styles.input}>
+    <div className={styles.inputContainer}>
       <input
         className={styles.textbox}
         type="text"
         placeholder="ENTER YOUR TASK"
-        value={current_text}
-        onChange={(e) => update_text(e.target.value)}
-        onKeyDown={(e) => e.key === "Enter" && handleAddTask()}
+        value={currentText}
+        onChange={(e) => setCurrentText(e.target.value)}
       />
-      <IoAddCircle className={styles.icon} onClick={handleAddTask} />
+      <IoAddCircle className={styles.icon} onClick={handleAdd} />
     </div>
   );
 }
