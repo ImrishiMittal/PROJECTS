@@ -67,6 +67,11 @@ function Projects() {
                 <li>Smooth hover animations and interactive icons</li>
               </ul>
             </p>
+            <div className={styles.live}>
+              <a href="https://rishi-todo.netlify.app/" target="_blank">
+                VISIT
+              </a>
+            </div>
         </div>
 
         <div className={styles.Jalpan}>
