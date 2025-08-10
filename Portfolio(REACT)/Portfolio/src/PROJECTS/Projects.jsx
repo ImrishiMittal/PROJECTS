@@ -49,6 +49,26 @@ function Projects() {
           </div>
         </div>
 
+        <div className={styles.Todo}>
+          <h4 className={styles.h4}>RAECT- TODO APP</h4>
+          <ul>
+                <li>
+                    <h5 className={styles.h5}>Tech Stack: HTML, CSS, BOOTSTARP, REACT, RAECT-ICONS</h5>
+                </li>
+            </ul>
+          <p>A responsive and interactive task manager built with React.js and CSS Modules. Users can add, edit, delete, mark as done/undo, and clear all tasks. Includes dynamic styling, icon-based controls, and smooth hover animations for an engaging experience.</p>
+          <div className={styles.parahead}>Key Features: </div>
+            <p className={styles.paragraph}>
+              <ul>
+                <li>Add, edit, delete, and toggle task completion</li>
+                <li>Clear all tasks with one click (visible only when tasks exist)</li>
+                <li>Visual distinction for completed tasks with strikethrough</li>
+                <li>Responsive layout with consistent horizontal alignment</li>
+                <li>Smooth hover animations and interactive icons</li>
+              </ul>
+            </p>
+        </div>
+
         <div className={styles.Jalpan}>
             <h4 className={styles.h4}>🥘 JALPAAN – RESTAURANT LANDING PAGE</h4>
             <ul>
